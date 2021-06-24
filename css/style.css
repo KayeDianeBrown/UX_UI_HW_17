@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+#navBar h1 {
+    padding-left: 15px;
+}
+#navBar {
+    display:flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footerNav {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    padding: 15px;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#heroQuote {
+    margin: 0px 5%;
+    padding: 15px;
+    padding-bottom: 100px;
+    background-color: black;
+    color: white;
+
+}
+
+.heroHeadshot {
+    float: right;
+    margin-right: 30%;
+}
+
+#selectedWork {
+    margin: 0px 5%;
+    padding: 15px;
+    background-color: white;
+    color: black;
+
+}
+
+.flex_item {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+#column {
+    background-color: white;
+    flex-direction: column;
+}
+#row {
+    background-color: white;
+    flex-direction: row;
+}
+
+#footer {
+    display: flex;
+    margin: 0px 5%;
+    padding: 15 px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
