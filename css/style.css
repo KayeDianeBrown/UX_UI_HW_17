@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Open Sans', sans-serif;
   }
@@ -12,6 +16,7 @@ body {
     padding: 15px;
     background-color: black;
     color: white;
+    justify-content: space-between;
 }
 
 #navigation {
@@ -34,7 +39,8 @@ body {
 .icons {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    width: 8%;
+    justify-content: space-between;
 }
 
 #heroQuote {
@@ -66,20 +72,13 @@ body {
     color: black;
 }
 
-.flex {
+.flex { 
+    flex-direction: row;
     display: flex;
     padding: 10px;
     margin: 10px;
 }
 
-#column {
-    background-color: white;
-    flex-direction: column;
-}
-#row {
-    background-color: white;
-    flex-direction: row;
-}
 
 #footer {
     display: flex;
@@ -89,4 +88,14 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
+
+@media only screen and (max-width: 600px) {
+    .flex {
+        flex-direction: column;
+    }
+    #footer {
+        flex-direction: column;
+    }
+  }
